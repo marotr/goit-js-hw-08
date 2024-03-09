@@ -1,0 +1,11 @@
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.modal {
+    width: 1112px;
+}
