@@ -6,6 +6,7 @@ ul {
     gap: 24px;
 }
 
-.modal {
+.modal img {
     width: 1112px;
+    margin:0 auto;
 }

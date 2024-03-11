@@ -81,7 +81,7 @@ const images = [
 
   galleryElement.insertAdjacentHTML('beforeend', galleryItems (images));
 
-  const galleryLinks = document.querySelectorAll('.gallery-link');
+  const galleryLinks = document.querySelectorAll('.gallery');
   galleryLinks.forEach(link => {
   link.addEventListener('click', function(event) {
     event.preventDefault(); 
@@ -105,7 +105,13 @@ function handleImageClick (evt){
   );
 
   instance.show();
+
+  const modal = document.querySelector('.basicLightbox');
+  modal.addEventListener('click', function(event) {
+    instance.close();
+  });
 }
+
 
 
 
