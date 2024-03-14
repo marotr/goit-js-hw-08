@@ -106,10 +106,10 @@ function handleImageClick (evt){
 
   instance.show();
 
-  const modal = document.querySelector('.basicLightbox');
+const modal = document.querySelector('.basicLightbox');
   modal.addEventListener('click', function(event) {
-    instance.close();
-  });
+  instance.close();
+ });
 }
 
 
